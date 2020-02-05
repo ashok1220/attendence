@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<title>MY BUNKLOG</title>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="logo">
+					<h1><a href="index.html">BUNKLOG</a></h1>
+				</div>
+				<div id="menu">
+					
+					<br class="clearfix" />
+				</div>
+			</div>
+			<div id="inner" ></br></br></br><p>
+			<?php
+$c=$_GET["classb"];
+$p=$_GET["min"];
+$t=$_GET["wday"];
+$res=((100-$p)/100)*$t-$c;
+if($res>=0)
+	echo "You can bunk ".$res." more classes safely";
+else
+    echo "You are short by ".($res*(-1))." classes";
+?>
+			</br></br>Thank You for Using <b>BUNKLOG</b>. Keep visiting.</a></p></div>
+		<div id="footer">
+			<p>&copy; 2012 BUNKLOG</p>
+		</div>
+	</body>
+</html>
+ index.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<title>MY BUNKLOG</title>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="logo">
+					<h1><a href="index.html">BUNKLOG</a></h1>
+				</div>
+				<div id="menu">
+					
+					<br class="clearfix" />
+				</div>
+			</div>
+			<div id="inner">
+				
+				<div id="page">
+					<div id="content">
+						<div class="box">
+							
+							
+							<p>
+								Wanna BUNK classes? and dont want attendence shortage?? </br>
+							
+							We proudly present to you <strong>BUNKLOG!!!</strong></br>
+							 An app that calculates UR attendence precentage and tells U how many more classes you can bunk or by how many classes your attendence is short.
+							<strong>Must have app for college students..!!</strong></br>
+							Enjoy UR BUNK without tension about attendence percentage..!!</br>
+							With <strong>BUNKLOG</strong> U can BUNK classes LOGically!!!</p>
+							<br class="clearfix" />
+						</div>
+					
+						<br class="clearfix" />
+					</div>
+				</div>
+			
+				<div id="page-bottom-content">
+					
+					<div id="guest_box">
+			<h3> Hi, get your BUNKLOG </h3>
+			<h5 id="guest_head"> ENTER DETAILS </h5>
+				<form action="guest_res.php" method="get">
+Total working days   &nbsp; &nbsp; &nbsp;     :     <input type="text" name="wday" />
+<br />
+No. of classes bunked    &nbsp; &nbsp; &nbsp; :  <input type="text" name="classb" />
+<br />
+Min. attendance percentage &nbsp; &nbsp; &nbsp; : <input type="text" name="min" />
+<br />
+<input type="submit" />
+</form> 
+		</div>
+		
+		
+		
+		
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<p>&copy; 2012 BUNKLOG</p>
+		</div>
+	</body>
+</html>
