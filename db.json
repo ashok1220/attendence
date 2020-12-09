@@ -1,0 +1,34 @@
+{
+  "emp": [
+    {
+      "id": 102,
+      "ename": "sunil",
+      "salary": 20000
+    },
+    {
+      "id": 103,
+      "ename": "sujith",
+      "salary": 25000
+    },
+    {
+      "id": 104,
+      "ename": "vijtha",
+      "salary": 45000
+    },
+    {
+      "id": 105,
+      "ename": "Bhargav",
+      "salary": 75000
+    },
+    {
+      "id": 106,
+      "ename": "sunil",
+      "salary": 20000
+    },
+    {
+      "id": 107,
+      "ename": "sunil",
+      "salary": 20000
+    }
+  ]
+}
